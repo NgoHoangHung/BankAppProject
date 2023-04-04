@@ -88,42 +88,42 @@ class ViewOver {
 
     static void showMainMenu() {
         System.out.println("======================================================");
-        System.out.println("                               TechMaster Bank xin chào quý khách                       ");
+        System.out.println("            TechMaster Bank xin chào quý khách        ");
         System.out.println("======================================================");
-        System.out.println("                                            [1] Đăng kí tài khoản                                        ");
-        System.out.println("                                            [2] Đăng nhập                                                    ");
-        System.out.println("                                            [3] Thoát                                                             ");
-        System.out.println("[Nhập vào lựa chọn:]                                                                                  ");
+        System.out.println("                  [1] Đăng kí tài khoản               ");
+        System.out.println("                  [2] Đăng nhập                       ");
+        System.out.println("                  [3] Thoát                           ");
+        System.out.println("[Nhập vào lựa chọn:]                                  ");
         System.out.println("======================================================");
     }
 
     static void showAccountOption() {
         System.out.println("======================================================");
-        System.out.println("                                             [Loại tài khoản:]                                              ");
+        System.out.println("                   [Loại tài khoản:]                  ");
         System.out.println("======================================================");
-        System.out.println("                                             [1] Admin                                                           ");
-        System.out.println("                                             [2] Customer                                                     ");
-        System.out.println("[Nhập vào lựa chọn:]                                                                                   ");
+        System.out.println("                       [1] Admin                      ");
+        System.out.println("                       [2] Customer                   ");
+        System.out.println("[Nhập vào lựa chọn:]                                  ");
         System.out.println("======================================================");
     }
 
     static void viewEnd() {
         System.out.println("======================================================");
-        System.out.println("                                     [See You Again]                                                    ");
-        System.out.println("                                                */                                                                 ");
+        System.out.println("                       [See You Again]                ");
+        System.out.println("======================================================");
     }
 
     static void viewAdmin() {
         System.out.println("======================================================");
-        System.out.println("                                                  Admin                                                            ");
+        System.out.println("                       Admin                          ");
         System.out.println("======================================================");
-        System.out.println("                                      [Lựa chọn:]                                                              ");
-        System.out.println("                                      [1] Phản hồi của khách hàng                                ");
-        System.out.println("                                      [2] Xóa tài khoản khách hàng                               ");
-        System.out.println("                                      [3] Sửa tài khoản khách hàng                               ");
-        System.out.println("                                      [4] Danh sách khách hàng                                     ");
-        System.out.println("                                      [5] Đăng xuất                                                           ");
-        System.out.println("[Nhập vào lựa chọn:]                                                                                   ");
+        System.out.println("                [Lựa chọn:]                           ");
+        System.out.println("                [1] Phản hồi của khách hàng           ");
+        System.out.println("                [2] Xóa tài khoản khách hàng          ");
+        System.out.println("                [3] Sửa tài khoản khách hàng          ");
+        System.out.println("                [4] Danh sách khách hàng              ");
+        System.out.println("                [5] Đăng xuất                         ");
+        System.out.println("[Nhập vào lựa chọn:]                                  ");
         System.out.println("======================================================");
     }
 
@@ -135,10 +135,10 @@ class ViewOver {
 
     static void viewProcessedFeedback() {
         System.out.println("======================================================");
-        System.out.println("                                                  Feedback                                                       ");
+        System.out.println("                      Feedback                        ");
         System.out.println("======================================================");
-        System.out.println("                                          [1] Feedback đã xử lí                                          ");
-        System.out.println("                                          [2] Feedback chưa xử lí                                      ");
+        System.out.println("                [1] Feedback đã xử lí                 ");
+        System.out.println("                [2] Feedback chưa xử lí               ");
         System.out.println("======================================================");
     }
 
@@ -147,16 +147,16 @@ class ViewOver {
         Date date = new Date();
         System.out.println("============ " + "[" + String.valueOf(date) + "]" + " ==============");
         infoCustomer();
-        System.out.println("Số dư khả dụng: ************** <o>                                                    ");
+        System.out.println("Số dư khả dụng: ************** <o>                    ");
         System.out.println("======================================================");
-        System.out.println("                                      [Lựa chọn:]                                                              ");
-        System.out.println("                                      [1] Nạp tiền                                                              ");
-        System.out.println("                                      [2] Chuyển tiền                                                        ");
-        System.out.println("                                      [3] Rút tiền                                                               ");
-        System.out.println("                                      [4] Lịch sử giao dịch                                               ");
-        System.out.println("                                      [5] Thông tin tài khoản                                          ");
-        System.out.println("                                      [6] Đăng xuất                                                           ");
-        System.out.println("[Nhập vào lựa chọn:]                                                                                   ");
+        System.out.println("                [Lựa chọn:]                           ");
+        System.out.println("                [1] Nạp tiền                          ");
+        System.out.println("                [2] Chuyển tiền                       ");
+        System.out.println("                [3] Rút tiền                          ");
+        System.out.println("                [4] Lịch sử giao dịch                 ");
+        System.out.println("                [5] Thông tin tài khoản               ");
+        System.out.println("                [6] Đăng xuất                         ");
+        System.out.println("[Nhập vào lựa chọn:]                                  ");
         System.out.println("======================================================");
     }
 }

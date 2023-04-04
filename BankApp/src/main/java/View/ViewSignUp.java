@@ -14,7 +14,7 @@ class ViewSignUp {
     static void viewSignUpIO() throws InterruptedException {
 
         System.out.println("======================================================");
-        System.out.println("                                                       Đăng kí                                                      ");
+        System.out.println("                          Đăng kí                     ");
         System.out.println("======================================================");
         int id = SignUp.generateID();
         System.out.println("ID của bạn sẽ là \n" + id);
@@ -39,7 +39,7 @@ class ViewSignUp {
         System.out.println("Nhập địa chỉ");
         String address = scan.nextLine();
         System.out.println("Hệ thống đang xử lí:");
-        for (char s : "[#####                                 ]25%\n[##########                      ]50%\n[###############           ]75%\n[####################]100%".toCharArray()) {
+        for (char s : "[#####               ]25%\n[##########          ]50%\n[###############     ]75%\n[####################]100%".toCharArray()) {
             System.out.print(s);
             TimeUnit.MILLISECONDS.sleep(20);
         }
